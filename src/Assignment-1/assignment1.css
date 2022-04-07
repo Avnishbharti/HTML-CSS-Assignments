@@ -1,7 +1,29 @@
-/* Our CSS file. */
+.container,content {
+    width: 100%;
+    height: 100%;
+}
+.row{
+    width: 100%;
+    display: block;
+    border: 1px snow;
+    margin: 2px;
+}
+.column{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+.List{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+img{
+    width: 580px;
+    height: 410px;
+}
+.Head{
+    position: absolute;
+    bottom: 1px;
 
-
-.container, .content {
-width: 100%;
-height: 100%;
 }
