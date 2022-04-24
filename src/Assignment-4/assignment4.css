@@ -71,14 +71,12 @@ header img{
 header nav{
     float: right;
 }
-header h1{
+/* header h1{
     float: left;
-    text-indent: -999;
-    
     height: 35px;
     width: 35px;
     margin-top: 8px;
-}
+} */
 nav li{
     display: inline-block;
     padding: 15px 10px;
@@ -135,7 +133,11 @@ nav li:hover{
     margin: 25px 0;
 }
 .three-col .btn{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 15px;
 }
 footer{
     background-color: #3F8DA7;
